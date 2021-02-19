@@ -233,22 +233,30 @@ footer p {
   }
 
   .contact i {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .frontend i,
-  .dev i {
+  .backend i {
     font-size: 80px;
+  }
+
+  .dev i {
+    font-size: 60px;
   }
 
   .background {
     width: 80%;
-    margin: 5px auto;
+    margin: 3px auto;
+    padding: 0;
   }
 
   .hide {
     visibility: hidden;
   }
+  /* .contact i {
+    margin-bottom: 10px;
+  } */
 }
