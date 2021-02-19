@@ -235,10 +235,12 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
-  .backend i,
   .frontend i,
   .dev i {
     font-size: 80px;
+  }
+  .backend i {
+    font-size: 60px;
   }
 
   .hide {
