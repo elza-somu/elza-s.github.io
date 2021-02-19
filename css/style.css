@@ -73,7 +73,7 @@
   display: none;
 }
 .about-skills {
-  padding: 20px;
+  /* padding: 20px; */
   margin: 50px 0;
   padding: 100px 0;
   background-color: #f2f2ec;
@@ -232,6 +232,11 @@ footer p {
     padding: 5px;
     margin-bottom: 5px;
   }
+
+  .portfolio {
+    margin: 4rem 0;
+    padding: 10px 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -239,8 +244,10 @@ footer p {
   .dev i {
     font-size: 80px;
   }
-  .backend i {
-    font-size: 40px;
+
+  .background {
+    width: 80%;
+    margin: 5px auto;
   }
 
   .hide {
