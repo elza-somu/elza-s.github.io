@@ -75,7 +75,7 @@
 .about-skills {
   /* padding: 20px; */
   margin: 50px 0;
-  padding: 100px 0;
+  padding: 50px 0;
   background-color: #f2f2ec;
 }
 
@@ -131,8 +131,7 @@
 /* Portfolio styling */
 
 .portfolio {
-  margin: 8rem 0;
-  padding: 30px 0;
+  margin: 4rem 0;
 }
 
 .portfolio .card {
@@ -142,9 +141,6 @@
 
 .portfolio img {
   margin-top: 20px;
-  /* border: 2px solid #e1dfda; */
-  /* width: 440px; */
-  /* height: 350px; */
 }
 
 .portfolio h2 {
@@ -171,17 +167,15 @@ section .contact {
 }
 
 .contact i {
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .contact i:hover {
   color: #f16b11;
-  font-size: 80px;
+  font-size: 70px;
 }
 .contact a {
-  /* padding: 20px 0; */
   color: #6f6a6a;
-  margin-bottom: 0;
 }
 
 .contact img {
@@ -236,6 +230,10 @@ footer p {
   .portfolio {
     margin: 4rem 0;
     padding: 10px 0;
+  }
+
+  .contact i {
+    margin-bottom: 30px;
   }
 }
 
