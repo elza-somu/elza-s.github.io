@@ -176,7 +176,7 @@ section .contact {
 
 .contact i:hover {
   color: #f16b11;
-  font-size: 100px;
+  font-size: 80px;
 }
 .contact a {
   /* padding: 20px 0; */
@@ -238,7 +238,7 @@ footer p {
   .backend i,
   .frontend i,
   .dev i {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   .hide {
