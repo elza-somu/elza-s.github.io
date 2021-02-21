@@ -156,18 +156,21 @@
 }
 section .contact {
   text-align: center;
-  margin-top: 50px;
+
+  margin: 0 40px;
 }
 
 #contact p,
 #contact h3 {
   text-align: center;
   margin-top: 20px;
+
   color: rgb(108, 107, 107);
 }
 
 .contact i {
   font-size: 50px;
+  margin-bottom: 50px;
 }
 
 .contact i:hover {
@@ -178,8 +181,8 @@ section .contact {
   color: #6f6a6a;
 }
 
-.contact img {
-  width: 200px;
+.log button {
+  margin-left: 20px;
 }
 /* Footer Styling */
 
