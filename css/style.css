@@ -197,8 +197,8 @@ footer p {
     margin-top: 20rem;
   }
 
-  .avatar2 {
-    visibility: hidden;
+  img.avatar2 {
+    /* visibility: hidden; */
     display: none;
   }
   /* .contact {
@@ -237,6 +237,11 @@ footer p {
 
   .contact i {
     margin-bottom: 10px;
+  }
+
+  form.log {
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
