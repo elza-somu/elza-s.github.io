@@ -151,7 +151,9 @@ footer p {
   /* .hero {
     height: 100vh;
   } */
-
+  .navbar img {
+    width: 250px;
+  }
   img {
     width: 90%;
   }
