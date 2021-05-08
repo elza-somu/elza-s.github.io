@@ -21,9 +21,6 @@ body {
   margin: 1px 0 0 0;
 }
 
-.navbar img {
-  width: 250px;
-}
 .social-icon li {
   list-style: none;
   display: inline-block;
@@ -94,7 +91,7 @@ li {
   margin-top: 20px;
 }
 
-img {
+.img {
   margin-bottom: 40px;
   width: 90%;
 }
@@ -151,9 +148,7 @@ footer p {
   /* .hero {
     height: 100vh;
   } */
-  .navbar img {
-    width: 200px;
-  }
+
   img {
     width: 90%;
   }
