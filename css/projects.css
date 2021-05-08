@@ -21,9 +21,9 @@ body {
   margin: 1px 0 0 0;
 }
 
-/* .navbar img {
-  width: 300px;
-} */
+.navbar img {
+  width: 250px;
+}
 .social-icon li {
   list-style: none;
   display: inline-block;
