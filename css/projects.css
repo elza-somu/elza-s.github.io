@@ -82,15 +82,23 @@ h5 {
   list-style: none;
   margin: 0;
 }
-li {
+ul li {
   list-style-type: disc;
   margin-left: 40px;
+}
+
+.alpha li {
+  margin-left: 40px;
+  list-style-type: lower-alpha;
 }
 
 .content {
   margin-top: 20px;
 }
 
+.interview ul li {
+  list-style-type: none;
+}
 .img {
   margin-bottom: 40px;
   width: 90%;
