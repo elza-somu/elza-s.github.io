@@ -73,10 +73,16 @@ h5 {
 .process,
 .next {
   margin-top: 20px;
+  /* list-style-type: lower-roman; */
 }
 
 .next {
   margin-bottom: 40px;
+}
+
+.next li {
+  margin-left: 20px;
+  list-style-type: lower-roman;
 }
 .intro li {
   list-style: none;
