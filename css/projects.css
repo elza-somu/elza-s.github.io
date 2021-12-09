@@ -93,6 +93,9 @@ ul li {
   margin-left: 40px;
 }
 
+figcaption {
+  font-size: small;
+}
 .alpha li {
   margin-left: 40px;
   list-style-type: lower-alpha;
