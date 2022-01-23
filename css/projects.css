@@ -36,7 +36,7 @@ body {
 }
 
 .social-icon li a:hover {
-  color: #f16b11;
+  color: #63a6a8;
 }
 /* .hero-img {
   height: 80vh;
@@ -66,16 +66,21 @@ h4 {
 h5 {
   margin: 20px 0;
 }
-
+.problem {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 .prototype {
-  color: #f16b11;
+  color: #63a6a8;
 }
 .process,
 .next {
   margin-top: 20px;
   /* list-style-type: lower-roman; */
 }
-
+.steps a {
+  color: #63a6a8;
+}
 .next {
   margin-bottom: 40px;
 }
@@ -91,6 +96,7 @@ h5 {
 ul li {
   list-style-type: disc;
   margin-left: 40px;
+  /* color: #63a6a8; */
 }
 
 figcaption {
@@ -143,7 +149,7 @@ section .contact {
 }
 
 .contact i:hover {
-  color: #f16b11;
+  color: #63a6a8;
   font-size: 70px;
 }
 .contact a {
