@@ -6,12 +6,12 @@
 
 .navbar-nav {
   line-height: 1.5;
-  padding-top: 2px;
+  /* padding-top: 2px;  */
 }
 
 .nav-item {
   font-size: 20px;
-  padding: 0 25px;
+  /* /* padding: 0 20px; */
 }
 .social-icon {
   top: 10px;
@@ -133,9 +133,9 @@
 }
 /* Portfolio styling */
 
-.portfolio {
+/* .portfolio {
   margin: 2rem 0;
-}
+} */
 
 .portfolio .card {
   width: 20rem;
