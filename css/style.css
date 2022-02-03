@@ -85,6 +85,10 @@
   margin: 0 20px;
 }
 
+.skills-list {
+  /* font-size: 22px; */
+  color: #6f6a6a;
+}
 .about p {
   padding-right: 20px;
   width: 90%;
@@ -95,13 +99,14 @@
 .background {
   margin: 10px 5px;
   padding: 10px;
+  background-color: #f2f2ec;
 }
 
 .skills {
   background-color: #f2f2ec;
 }
 .skills i {
-  font-size: 30px;
+  font-size: 20px;
   padding-right: 50px;
   margin-bottom: 30px;
   margin: 0 auto;
