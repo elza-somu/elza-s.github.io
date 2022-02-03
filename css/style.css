@@ -93,9 +93,12 @@
 }
 
 .background {
-  /* background-color: rgba(230, 230, 230, 0.8); */
   margin: 10px 5px;
   padding: 10px;
+}
+
+.skills {
+  background-color: #f2f2ec;
 }
 .skills i {
   font-size: 30px;
@@ -107,7 +110,7 @@
 .skill-title {
   text-align: center;
   color: #6f6a6a;
-  /* margin: 10px 0; */
+  margin: 10px 0;
   border-bottom: 1px solid #6f6a6a;
   margin-bottom: 20px;
 }
