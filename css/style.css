@@ -44,7 +44,7 @@
 
 .title h1 {
   color: rgb(128, 128, 128);
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .title .developer {
@@ -72,15 +72,13 @@
 
 /* About Section & Skills */
 
-.hidden {
-  display: none;
-}
-
 .about-skills h2 {
   /* padding-bottom: px; */
   margin-top: 20px;
   color: #2d2a2a;
   text-align: center;
+  color: #6f6a6a;
+  padding-top: 40px;
 }
 .about {
   padding: 0 50px;
@@ -97,7 +95,7 @@
 .background {
   /* background-color: rgba(230, 230, 230, 0.8); */
   margin: 10px 5px;
-  padding: 50px;
+  padding: 10px;
 }
 .skills i {
   font-size: 30px;
@@ -116,7 +114,7 @@
 
 .skill-title p,
 .skill-title + p {
-  font-size: 30px;
+  font-size: 25px;
   color: #6f6a6a;
 }
 
