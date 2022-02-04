@@ -107,7 +107,10 @@
   padding: 10px;
   background-color: #f2f2ec;
 }
-
+.paint {
+  font-size: 25px;
+  color: #6f6a6a;
+}
 .skills {
   background-color: #f2f2ec;
 }
