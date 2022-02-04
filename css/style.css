@@ -58,13 +58,19 @@
 .developer:hover {
   color: #63a6a8;
 }
+
+.intro p {
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+  text-align: center;
+}
 .title p {
   color: rgb(128, 128, 128);
   font-size: 20px;
 }
 
 .title img {
-  width: 200px;
+  width: 400px;
 }
 .logo .mern img {
   width: 20px;
