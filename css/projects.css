@@ -110,6 +110,13 @@ figcaption {
 .content {
   margin-top: 20px;
 }
+a {
+  color: #63a6a8;
+}
+
+.btn- {
+  background-color: #63a6a8;
+}
 
 .interview ul li {
   list-style-type: none;
