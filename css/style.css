@@ -105,8 +105,9 @@
 .background {
   margin: 10px 5px;
   padding: 10px;
-  background-color: #f2f2ec;
+  background-color: #6ba3a4;
 }
+
 .paint {
   font-size: 25px;
   color: #6f6a6a;
@@ -177,6 +178,10 @@
   color: #555454;
 }
 
+.background p,
+.background h2 {
+  color: #ffffff;
+}
 /* Contact styling */
 #contact {
   padding-top: 30px;
