@@ -177,7 +177,9 @@
   margin-top: 20px;
   color: #555454;
 }
-
+.background h2 {
+  font-size: 27px;
+}
 .background p,
 .background h2 {
   color: #ffffff;
