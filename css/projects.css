@@ -53,6 +53,18 @@ body {
   /* background-size: cover; */
   position: relative;
 }
+
+.background {
+  background-color: #f2f2ec;
+}
+
+.background h5,
+.background li,
+.background h1,
+.background h4,
+.background p {
+  color: #2d2a2a;
+}
 .intro {
   padding: 20px;
 }
