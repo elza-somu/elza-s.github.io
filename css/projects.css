@@ -65,6 +65,7 @@ body {
 .background p {
   color: #2d2a2a;
 }
+
 .intro {
   padding: 20px;
 }
@@ -85,6 +86,11 @@ h5 {
 }
 .prototype {
   color: #63a6a8;
+}
+
+.solution {
+  color: #6f6a6a;
+  text-decoration: underline;
 }
 .process,
 .next {
