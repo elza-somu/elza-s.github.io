@@ -112,8 +112,10 @@
 
 .background {
   /* margin: 10px 5px; */
-  padding: 10px;
-  background-color: #f2f2ec;
+  /* padding: 10px; */
+  /* background-color: #f2f2ec; */
+  border-top: 2px solid #f2f2ec;
+  border-bottom: 2px solid #f2f2ec;
 }
 
 .travel {
