@@ -54,7 +54,17 @@
   color: rgb(128, 128, 128);
   font-size: 40px;
 }
+.welcome {
+  color: #1a285f;
+  
+}
+.greeting{
+  color: #051627;
+}
 
+.introgreeting{
+  color: #051627;
+}
 .title .developer {
   color: rgb(128, 128, 128);
   font-size: 25px;
@@ -169,7 +179,8 @@
 }
 
 .portfolio h2 {
-  text-align: center;
+ /* text-align: center;*/
+ margin-top: 20px ;
   margin-bottom: 20px;
   color: rgb(108, 107, 107);
 }
@@ -217,6 +228,24 @@ section .contact {
 .contact i {
   font-size: 25px;
   margin-bottom: 50px;
+}
+.wrapper.style1 {
+  background-image: none;
+  background-color: #fff;
+}
+.image {
+  display: inline-block;
+  position: relative;
+}
+
+.image img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+.image.fit {
+  display: block;
+  width: 70%;
 }
 
 .contact i:hover {
