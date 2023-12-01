@@ -55,6 +55,8 @@
   font-size: 40px;
 }
 .welcome {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 55px;
   color: #1a285f;
   
 }
@@ -64,6 +66,12 @@
 
 .introgreeting{
   color: #051627;
+  font-size: 25px;
+}
+
+.introgreeting2{
+  color: #051627;
+    font-size: 20px;
 }
 .title .developer {
   color: rgb(128, 128, 128);
@@ -74,12 +82,12 @@
 }
 
 .developer:hover {
-  color: #63a6a8;
+  color: #1a285f;
 }
 
 .intro p {
   color: rgb(128, 128, 128);
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 .title p {
@@ -161,7 +169,7 @@
 .dev i {
   font-size: 60px;
   margin: 0 auto;
-  color: #94bdb3;
+  color: #1a285f;
 
 }
 
@@ -190,7 +198,7 @@
 
 .portfolio a,
 .gitlink a {
-  color: #63a6a8;
+  color: #1a285f;
 }
 
 .portfolio a:hover {
@@ -252,7 +260,7 @@ section .contact {
 }
 
 .contact i:hover {
-  color: #63a6a8;
+  color: #1a285f;
   /* font-size: 52px; */
 }
 .contact a {
