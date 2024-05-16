@@ -107,25 +107,25 @@
 
 .about-skills h2 {
   /* padding-bottom: px; */
-  margin-top: 20px;
+  margin-top: 18px;
   color: #2d2a2a;
   text-align: center;
   color: #6f6a6a;
   padding-top: 40px;
 }
-.about {
-  padding: 0 50px;
-  margin: 0 20px;
-}
+
 
 .skills-list {
-  font-size: 18px;
+  font-size: 16px;
   color: #6f6a6a;
+}
+.about h1{
+font-size: 22px;
 }
 .about p {
   padding-right: 20px;
   width: 90%;
-  font-size: 22px;
+  font-size: 16px;
   color: #6f6a6a;
 }
 
