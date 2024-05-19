@@ -150,25 +150,78 @@
 
         <!-- IP -->
         <div class="card" style="width: 32rem;">
-          <a href="./Ip.html"><img class="card-img-top" src="./assets/images/IP/Thumb.png"
-              alt="Card image cap"></a>
+          <img class="card-img-top" src="./assets/images/IP/Thumb.png"
+              alt="Card image cap">
         
           <div class="card-body">
             <h5 class="card-title">IP Tool</h5>
             <p class="card-text">A tool which aims to manage all aspects of vendor-related spend under one central digital platform
             </p>
             <div class="d-flex justify-content-around">
-              <a href="./Ip.html" class="btn btn-outline-secondary btn-block">Read More</a>
-              <p class="col-1"></p>
+              <button type="button" class="btn btn-outline-secondary btn-block" data-toggle="modal" data-target="#exampleModal">
+                Read More
+              </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title m-auto justify-content-center"  id="exampleModalLabel">Access to this page is restricted due to NDA </h5>
+                        
+                        <button type="button" class="close" data-dismiss="modal" >
+                         
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                       
+                      </div>
+                      
+                      <div class="modal-body">
+                        <form class="text text-center">
+                          <div class="mt-3">
+                          <label for="pswd">Password Required </label>
+                          
+                          
+                        </div>
+                          <input type="password"  class="form-control" id="pswd">
+                          <div class="text-center mt-2  "> <small>*please click submit button  * </small></div>
+                        
+                      </form>
+                     
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" value="Submit" onclick="checkPswd();" >Submit</button>
+                         <!--Function to check password the already set password is admin-->
+                      <script type="text/javascript">
+                        function checkPswd() {
+                            var confirmPassword = "adminvalue";
+                            var password = document.getElementById("pswd").value;
+                            if (password == confirmPassword) {
+                                window.location="ip.html";
+                            }
+                            else{
+                                alert("Passwords do not match.");
+                            }
+                        }
+                    </script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--<p class="col-1"></p>
               <a href="https://www.figma.com/proto/gYa9yeX3pmJT21pnANIXZJ/ip?type=design&node-id=339-10679&t=dG0tbA8d3cUrNM68-1&scaling=min-zoom&page-id=339%3A1234&mode=design"
-                target="blank" class="btn btn-outline-secondary btn-block">Prototype</a>
+                target="blank" class="btn btn-outline-secondary btn-block">Prototype</a>-->
             </div>
           </div>
         </div>
+
+
+
         <!-- Comingsoon  -->
         <div class="card" style="width: 32rem;">
-          <a href="./ContractPlaybook.html"><img class="card-img-top  comingsoon"
-              src="./assets/images/contractpluse/CoverImg.png" alt="Card image cap"></a>
+          <img class="card-img-top  comingsoon"
+              src="./assets/images/contractpluse/CoverImg.png" alt="Card image cap">
 
 
           <div class="card-body">
@@ -177,14 +230,62 @@
               contracts are handled
             </p>
             <div class="d-flex justify-content-around">
-              <a href="./ContractPlaybook.html" class="btn btn-outline-secondary btn-block ">Read More</a>
-              <p class="col-1"></p>
+              <button type="button" class="btn btn-outline-secondary btn-block" data-toggle="modal" data-target="#Modal">
+                Read More
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title m-auto justify-content-center"  id="ModalLabel">Access to this page is restricted due to NDA </h5>
+                      
+                      <button type="button" class="close" data-dismiss="modal" >
+                       
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                     
+                    </div>
+                    
+                    <div class="modal-body">
+                      <form class="text text-center">
+                        <div class="mt-3">
+                          <label for="pswrd">Password Required </label>
+                        </div>
+                        <input type="password" class="form-control" id="pswrd">
+                        <div class="text-center mt-2 "> <small>*please click submit button  * </small></div>
+                      
+                    </form>
+                    
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary" value="Submit" onclick="checkPswrd();" >Submit</button>
+                      <!--Function to check password the already set password is admin-->
+                    <script type="text/javascript">
+                      function checkPswrd() {
+                          var confirmPassword = "adminvalue";
+                          var password = document.getElementById("pswrd").value;
+                          if (password == confirmPassword) {
+                              window.location="ContractPlaybook.html";
+                          }
+                          else{
+                              alert("Passwords do not match.");
+                          }
+                      }
+                  </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+               <!-- <p class="col-1"></p>
               <a href="https://www.figma.com/proto/gYa9yeX3pmJT21pnANIXZJ/ip?type=design&node-id=364-2436&t=zaVnOICO28b4ASuk-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=364%3A2436&mode=design"
-                class="btn btn-outline-secondary btn-block" target="blank">Prototype</a>
+                class="btn btn-outline-secondary btn-block" target="blank">Prototype</a>-->
             </div>
           </div>
         </div>
-    <!-- RentSync  -->
+   <!--  RentSync  -->
     <div class="card" style="width: 32rem;">
       <a href="./center.html"><img class="card-img-top" src="./assets/images/rent/appWeb.png"
           alt="Card image cap"></a>

@@ -202,10 +202,14 @@ font-size: 22px;
 }
 
 .portfolio a,
+.portfolio button,
 .gitlink a {
   color: #1a285f;
 }
-
+ 
+.modal button{
+  color: #fff;
+}
 .portfolio a:hover {
   color: #fefefe;
 }
