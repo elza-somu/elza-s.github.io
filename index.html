@@ -155,29 +155,31 @@
 
               <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title "  id="exampleModalLabel">Access to this page is restricted</h5>
+                  <div class="modal-dialog " role="document">
+                    <div class="modal-content ">
+                      <div class="modal-header  p-3 mb-2 bg-info  ">
+                        
+                        <h5 class="modal-title text-white"  id="exampleModalLabel">Access to this page is restricted</h5>
                         
                         
                       </div>
                       
-                      <div class="modal-body m-5">
+                      <div class="modal-body mb-5">
                         <form class="text text-center" onsubmit="return false">
-                          <div class="mt-3">
-                          <label for="pswd">Password Required </label>
+                          
+                          <img src="./assets/ESLogo.png" alt="" width="40%">
+                          <h6 for="pswd" class="text-secondary">Password Required </h6>
                           
                           
-                        </div>
-                          <input type="password"  class="form-control" id="pswd">
+                      
+                          <input type="password"  class="form-control" id="pswd" placeholder=" Enter Password">
                           
                       </form>
                      
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary" value="Submit" onclick="checkPswd();" >Submit</button>
+                        <button type="button" class="btn btn-info" value="Submit" onclick="checkPswd();" >Submit</button>
                          <!--Function to check password the already set password is admin-->
                       <script type="text/javascript">
                         function checkPswd() {
@@ -224,20 +226,22 @@
               <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title m-auto"  id="ModalLabel">Access to this page is restricted </h5>
-                     
-                     
-                    </div>
-                    
-                    <div class="modal-body m-5">
-                      <form class="text text-center" onsubmit="return false">
-                        <div class="mt-3">
-                          <label for="pswrd">Password Required </label>
-                        </div>
-                        <input type="password" class="form-control" id="pswrd">
-                    
+                    <div class="modal-header  p-3 mb-2 bg-info  ">
+                        
+                      <h5 class="modal-title text-white"  id="exampleModalLabel">Access to this page is restricted</h5>
                       
+                    </div>
+
+                    <div class="modal-body mb-5">
+                      <form class="text text-center" onsubmit="return false">
+                        
+                        <img src="./assets/ESLogo.png" alt="" width="40%">
+                        <h6 for="pswd" class="text-secondary">Password Required </h6>
+                        
+                        
+                    
+                        <input type="password"  class="form-control" id="pswrd" placeholder=" Enter Password">
+                        
                     </form>
                     
                     </div>
