@@ -64,13 +64,17 @@
   color: #373f47;
   font-size: 22px;
 }
+.greeting h3{
+  color: #373f47;
+  font-size: 24px;
+}
 .greeting h4{
   color: #373f47;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .introgreeting{
-  color: #051627;
+  color: #3d4955;
   font-size: 16px;
 }
 
